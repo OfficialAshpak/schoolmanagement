@@ -1,0 +1,40 @@
+.breadcrumb-row {
+    background: #fff;
+    padding: 15px 0;
+	border-bottom: 1px solid #e5e5e5;
+}
+.breadcrumb-row ul {
+    margin: 0;
+}
+.breadcrumb-row ul li {
+    padding: 0;
+    margin-right: 3px;
+    color: #000;
+	display: inline-block;
+}
+.breadcrumb-row ul li:after {
+    content: "\f105";
+    margin-left: 7px;
+	font-family: fontawesome;
+}
+.breadcrumb-row ul li:last-child {
+    color: #000;
+}
+.breadcrumb-row ul li:last-child:after {
+    display: none;
+}
+.table > tbody > tr > td,
+.table > tbody > tr > th,
+.table > tfoot > tr > td,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > thead > tr > th {
+    padding: 10px;
+}
+.table.borderless > tbody > tr > td,
+.table.borderless > tbody > tr > th {
+    border: none;
+}
+.dataTable .sorting_asc .checkbox {
+    margin-right: 0;
+}

@@ -1,0 +1,55 @@
+.ttr-divider {
+    height: 1px;
+    position: relative;
+    margin: 30px 0;
+}
+.ttr-divider.tb20{
+	margin:20px 0;
+}
+.ttr-divider.tb15{
+	margin:15px 0;
+}
+.ttr-divider.tb10{
+	margin:10px 0;
+}
+.ttr-divider.tb0{
+	margin:0;
+}
+.ttr-divider.divider-2px {
+    height: 2px;
+}
+.ttr-divider.divider-3px {
+    height: 3px;
+}
+.ttr-divider.divider-4px {
+    height: 4px;
+}
+.ttr-divider i {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    display: block;
+    border-radius: 100%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.ttr-divider.icon-left {
+    margin-left: 40px;
+}
+.ttr-divider.icon-left i {
+    left: -40px;
+}
+.ttr-divider.icon-right {
+    margin-right: 40px;
+}
+.ttr-divider.icon-right i {
+    left: auto;
+    right: -40px;
+}
+.ttr-divider.icon-center i {
+    left: 50%;
+    margin-left: -5px;
+}

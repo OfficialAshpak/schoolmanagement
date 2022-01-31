@@ -1,0 +1,283 @@
+/* info box show */
+.action-box {
+    overflow: hidden;
+    position: relative;
+}
+.ttr-box:hover .ttr-info-has,
+.action-box:hover .ttr-info-has {
+    opacity: 1;
+    width: 100%;
+    margin-bottom: 0;
+}
+/* without hover */
+.ov-box.no-hover,
+.ttr-info-has.no-hover {
+    opacity: 1;
+    width: 100%;
+    margin-bottom: 0;
+	visibility: visible;
+}
+.ovbl-light,
+.ovbl-middle,
+.ovbl-dark,
+.ovwh-light,
+.ovwh-middle,
+.ovwh-dark,
+.ovpr-light,
+.ovpr-middle,
+.ovpr-dark,
+.ovpr {
+    position: relative;
+}
+.ovbl-light:after,
+.ovbl-middle:after,
+.ovbl-dark:after,
+.ovwh-light:after,
+.ovwh-middle:after,
+.ovwh-dark:after,
+.ovpr-light:after,
+.ovpr-middle:after,
+.ovpr-dark:after,
+.ovpr:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.ovbl-light:after,
+.ovbl-middle:after,
+.ovbl-dark:after {
+    background: #000;
+}
+.ovwh-light:after,
+.ovwh-middle:after,
+.ovwh-dark:after {
+    background: #FFF;
+}
+.ovpr-light:after,
+.ovpr-middle:after,
+.ovpr-dark:after,
+.ovpr:after {
+    background: ;
+}
+.ovbl-light:after {
+    opacity: 0.3;
+}
+.ovbl-middle:after {
+    opacity: 0.5;
+}
+.ovbl-dark:after {
+    opacity: 0.8;
+}
+.overlay-gradient-light:after {
+    opacity: 0.3;
+}
+.overlay-gradient-middle:after {
+    opacity: 0.5;
+}
+.overlay-gradient-dark:after {
+    opacity: 0.8;
+}
+.ovwh-light:after {
+    opacity: 0.5;
+}
+.ovwh-middle:after {
+    opacity: 0.7;
+}
+.ovwh-dark:after {
+    opacity: 0.8;
+}
+.ovwh-dark.op95:after {
+    opacity: 0.95;
+}
+.ovpr-light:after {
+    opacity: 0.3;
+}
+.ovpr-middle:after {
+    opacity: 0.5;
+}
+.ovpr-dark:after,
+.ovpr:after {
+    opacity: 0.95;
+}
+.ovbl-light .container,
+.ovbl-middle .container,
+.ovbl-dark .container,
+.ovwh-light .container,
+.ovwh-middle .container,
+.ovwh-dark .container,
+.ovpr-light .container,
+.ovpr-middle .container,
+.ovpr-dark .container,
+.ovpr .container,
+.ovbl-light .container-fluid,
+.ovbl-middle .container-fluid,
+.ovbl-dark .container-fluid,
+.ovwh-light .container-fluid,
+.ovwh-middle .container-fluid,
+.ovwh-dark .container-fluid,
+.ovpr-light .container-fluid,
+.ovpr-middle .container-fluid,
+.ovpr-dark .container-fluid,
+.ovpr .container-fluid {
+    position: relative;
+    z-index: 1;
+}
+/*use for box*/
+.ov-box {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+}
+.overlay-icon,
+.ov-box .align-m {
+    height: auto;
+    left: 50%;
+    list-style: outside none none;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    width: 100%;
+	padding: 0 10px;
+}
+.ov-box .align-b{
+    height: auto;
+    left: 0;
+    list-style: outside none none;
+    margin: 0;
+    position: absolute;
+	top:auto;
+    bottom: 0;
+    width: 100%;
+	transform: translate(0);
+    -o-transform: translate(0);
+    -moz-transform: translate(0);
+    -webkit-transform: translate(0);
+}
+.overlay-icon a {
+    display: inline-block;
+    padding: 0;
+    margin: 0 2px;
+}
+.overlay-icon a i {
+    background-color: #FFF;
+}
+.ov-box:hover a > i,
+.action-box:hover .ov-box a > i,
+.ttr-box-bx:hover .ov-box a > i {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.ov-box:hover,
+.action-box:hover .ov-box,
+.ttr-box:hover .ov-box,
+.ow-img:hover .ov-box,
+.ow-portfolio-img:hover .ov-box {
+    opacity: 1;
+    visibility: visible;
+}
+.media-ov1,
+.media-ov2{
+    position: relative;
+}
+.media-ov1:before,
+.media-ov1:after,
+.media-ov2:before,
+.media-ov2:after{
+    content: "";
+    background: #000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    opacity: 0.4;
+    z-index: 1;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+/*effect 1*/
+.media-ov1:before {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+.media-ov1:hover:before,
+.ttr-box:hover .media-ov1:before {
+    opacity: 0.5;
+}
+/*effect 7*/
+.media-ov2:before,
+.media-ov2:after {
+    height: 100%;
+}
+.media-ov2:after {
+    left: auto;
+    right: 0;
+}
+.media-ov2:hover:before,
+.media-ov2:hover:after,
+.ttr-box:hover .media-ov2:before,
+.ttr-box:hover .media-ov2:after {
+    width: 50%;
+}
+
+.media-effect {
+    position: relative;
+    overflow: hidden;
+    display: block;
+	vertical-align: middle;
+}
+.media-effect img {
+    display: block;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    -moz-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    transition: all 0.25s;
+    -moz-transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    -o-transition: all 0.25s;
+}
+/* >image-opacity */
+.media-effect.opacity img:hover {
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+    -webkit-opacity: 0.8;
+}
+/* >image-zoom */
+.media-effect.zoom-slow img {
+    transition: all 10s;
+    -moz-transition: all 10s;
+    -webkit-transition: all 10s;
+    -o-transition: all 10s;
+}
+.media-effect.zoom-slow:hover img {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}

@@ -1,0 +1,53 @@
+/* Scroll CSS */
+.mCustomScrollbar{ 
+	-ms-touch-action: pinch-zoom;
+	touch-action: pinch-zoom; 
+}
+
+.mCustomScrollBox{ 
+	position: relative;
+	overflow: hidden;
+	height: 100%;
+	max-width: 100%;
+	outline: none;
+	direction: ltr;
+}
+.mCSB_container{ 
+	overflow: hidden;
+	width: auto;
+	height: auto;
+}
+.mCSB_scrollTools .mCSB_draggerContainer{ 
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0; 
+	width: 4px;
+	
+}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{ 
+	position: relative;
+	width: 4px;
+	height: 100%;
+	margin: 0 auto;
+	-webkit-border-radius: 16px; -moz-border-radius: 16px; border-radius: 16px;
+	text-align: center;
+}
+.mCSB_scrollTools .mCSB_buttonDown{
+	display: block;
+	position: absolute;
+	height: 20px;
+	width: 100%;
+	overflow: hidden;
+	margin: 0 auto;
+	cursor: pointer;
+}
+.mCSB_scrollTools .mCSB_buttonDown{ 
+	bottom: 0; 
+}
+.content-scroll {
+
+	overflow: auto;
+}
+.mCSB_dragger{ background-color:rgba(0, 0, 0, 0.2) }

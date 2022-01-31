@@ -1,0 +1,101 @@
+.styleswitcher-right h6.switcher-title {
+    font-weight: 500;
+	margin: 0 0 0 0;
+	font-size: 14px;
+	height: 40px;
+	background: #121921;
+	font-size: 16px;
+	color: #fff;
+	padding: 8px 10px;
+	text-transform: uppercase;
+}
+.styleswitcher-inner {
+    height: 100%;
+    left: 0;
+    overflow: auto;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+/* styleswitcher-right */
+.styleswitcher-right .switcher-title{
+    font-weight: 800;
+    margin: 10px 5px;
+    text-transform: uppercase;
+}
+.styleswitcher-right {
+    background-color: #ffffff;
+    box-shadow: -3px 1px 5px rgba(0, 0, 0, 0.1);
+    height: 110px;
+    right: -220px;
+    padding: 15px;
+    position: fixed;
+    top: 50%;
+    width: 220px;
+    z-index: 999;
+	transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+}
+.styleswitcher-right .switcher-btn-bx {
+    position: absolute;
+    left: -40px;
+    top: 0;
+}
+.styleswitcher-right .switch-btn { 
+	box-shadow:-3px 1px 5px rgba(0, 0, 0, 0.1); 
+}
+/* styleswitcher-right End */
+.switch-btn {
+    background: #121921;
+    box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 21px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 40px;
+}
+a:not([href]):not([tabindex]).switch-btn  {
+	color: #fff;
+}
+.color-skins{
+    margin: 0;
+    padding: 10px;
+}
+.color-skins li{
+    cursor: pointer;
+    display: inline-block;
+    list-style: outside none none;
+    margin:0;
+	width: 25%;
+	float: left;
+	padding:5px;
+}
+.color-skins li a{
+    display: block;
+    height: 40px;
+    width: 100%;
+	border-radius: 4px;
+}
+.color-skins li .skin-1{
+    background-color: #4c1864;
+}
+.color-skins li .skin-2{
+    background-color: #ff5e14;
+}
+.color-skins li .skin-3{
+    background-color: #6021ff;
+}
+.color-skins li .skin-4{
+    background-color: #ff4b36;
+}
+@media only screen and (max-width: 767px) {
+	.styleswitcher{
+		display:none;
+	}
+}

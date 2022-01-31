@@ -1,0 +1,169 @@
+.list-circle,
+.list-angle-right,
+.list-arrow,
+.list-check,
+.list-checked,
+.list-icon-box,
+.list-chevron-circle,
+.list-hand-point,
+.list-cup,
+.list-pen,
+.list-heart,
+.list-star {
+    margin: 0 0 20px 0;
+    padding: 0;
+    list-style: none;
+}
+.list-circle li,
+.list-angle-right li,
+.list-arrow li,
+.list-check li,
+.list-checked li,
+.list-icon-box li,
+.list-chevron-circle li,
+.list-hand-point li,
+.list-cup li,
+.list-pen li,
+.list-heart li,
+.list-star li {
+    padding: 5px 5px 5px 30px;
+    position: relative;
+}
+.list-circle li:before,
+.list-angle-right li:before,
+.list-arrow li:before,
+.list-check li:before,
+.list-checked li:before,
+.list-icon-box li:before,
+.list-chevron-circle li:before,
+.list-hand-point li:before,
+.list-cup li:before,
+.list-pen li:before,
+.list-heart li:before,
+.list-star li:before {
+    font-family: "themify";
+    position: absolute;
+    left: 0;
+    top: 5px;
+    display: block;
+    font-size: 15px;
+    color: #777;
+}
+ul[class*="list-"]{
+	font-family: "rubik",sans-serif;
+	font-size:15px;
+}
+.list-circle li:before {
+    font-size: 16px;
+}
+.list-circle li:before {
+    content: "\e724";
+}
+.list-angle-right li:before {
+    content: "\e628";
+}
+.list-arrow li:before {
+    content: "\e661";
+}
+.list-check li:before {
+    content: "\e64c";
+}
+.list-checked li:before {
+    content: "\e64d";
+	font-family: 'themify';
+	font-size: 15px;
+}
+.list-icon-box li:before {
+    content: "\e6e8";
+}
+.list-chevron-circle li:before {
+    content: "\e65d";
+}
+.list-hand-point li:before {
+    content: "\e71b";
+}
+.list-star li:before {
+    content: "\e60a";
+}
+.list-cup li:before {
+    content: "\e641";
+}
+.list-pen li:before {
+    content: "\e61c";
+}
+.list-heart li:before {
+    content: "\e634";
+}
+/*listing before icon color css*/
+.primary li:before {
+    color: #EFBB20;
+}
+.secondry li:before {
+    color: #77C04B;
+}
+.black li:before {
+    color: #000;
+}
+.white li:before {
+    color: #fff;
+}
+.orange li:before {
+    color: #FF6600;
+}
+.green li:before {
+    color: #00CC00;
+}
+.red li:before {
+    color: #FF3737;
+}
+.no-margin {
+    margin: 0 0 0 !important;
+    list-style: none;
+}
+/*listing before numbers*/
+.list-num-count {
+    counter-reset: li;
+    padding-left: 0;
+}
+.list-num-count > li {
+    position: relative;
+    margin: 0 0 6px 30px;
+    padding: 4px 8px;
+    list-style: none;
+}
+.list-num-count > li:before {
+    content: counter(li, decimal);
+    counter-increment: li;
+    position: absolute;
+    top: 0;
+    left: -28px;
+    width: 28px;
+    height: 28px;
+    padding: 5px;
+    color: #fff;
+    background: #EFBB20;
+    font-weight: bold;
+    text-align: center;
+    font-size: 12px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+}
+.list-num-count.lower-alpha > li:before {
+    content: counter(li, lower-alpha);
+}
+.list-num-count.upper-alpha > li:before {
+    content: counter(li, upper-alpha);
+}
+.list-num-count.upper-roman > li:before {
+    content: counter(li, upper-roman);
+}
+.list-num-count.no-round > li:before {
+    background-color: rgba(0, 0, 0, 0);
+    color: #333333;
+    font-size: 15px;
+    font-weight: normal;
+    height: auto;
+    left: -30px;
+    margin: 0;
+    width: auto;
+}

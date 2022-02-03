@@ -1,4 +1,7 @@
 # schoolmanagement
+Contributers
+A big shout out to all the contributers, more specifically to these guys
+@adarash 
 DASHBOARD
 <img width="960" alt="dashboard" src="https://user-images.githubusercontent.com/59436078/152376416-18c79677-0558-49e4-8095-c9af554fd64e.PNG">
 

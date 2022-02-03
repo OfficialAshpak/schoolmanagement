@@ -1,6 +1,9 @@
 # schoolmanagement
 Contributers
 A big shout out to all the contributers, more specifically to these guys
+
+
+#Usertype
 There are 4 types of user accounts. They include:
 
 Administrators (Super Admin & Admin)

@@ -82,3 +82,13 @@ There are 4 types of user accounts. They include:
 <img width="959" alt="signup" src="https://user-images.githubusercontent.com/59436078/152368821-10c9a08b-dcb6-4aea-a08e-c992aae8a60c.PNG">
 3)**Forget password**
 <img width="957" alt="forgetpass" src="https://user-images.githubusercontent.com/59436078/152368915-ad95da9b-a90a-4575-b7da-24cf1f8fc04a.PNG">
+
+#### Security Vulnerabilities
+
+If you discover a security vulnerability within LAVSMS, please use pull request. All security vulnerabilities will be promptly addressed.
+
+**Please Note** that some sections of this project are in the work-in-progress stage and would be updated soon. These include:
+
+* The Noticeboard/Calendar in the Dashboard Area
+* Acountant user pages
+* Study Materials Upload for Students

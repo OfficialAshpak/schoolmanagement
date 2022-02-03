@@ -6,8 +6,7 @@ manual system as the information is scattered, can be redundant and collecting
 relevant information may be very time consuming. All these problems are solved
 using this project._
 
-# Contributers
-A big shout out to all the contributers.
+
 
 
 # Usertype
@@ -83,6 +82,8 @@ There are 4 types of user accounts. They include:
 3)**Forget password**
 <img width="957" alt="forgetpass" src="https://user-images.githubusercontent.com/59436078/152368915-ad95da9b-a90a-4575-b7da-24cf1f8fc04a.PNG">
 
+# Contributers
+A big shout out to all the contributers.
 # Security Vulnerabilities
 
 If you discover a security vulnerability within LAVSMS, please use pull request. All security vulnerabilities will be promptly addressed.

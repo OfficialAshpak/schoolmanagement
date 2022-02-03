@@ -508,12 +508,12 @@ Theme Primary Color
 .theme-primary .btn-link {
   color: #0F5EF7; }
 .theme-primary .btn-primary {
-  background-color: #0F5EF7;
-  border-color: #0F5EF7;
+  background-color: #808080;
+  border-color: #808080;
   color: #ffffff; }
   .theme-primary .btn-primary:hover, .theme-primary .btn-primary:active, .theme-primary .btn-primary:focus, .theme-primary .btn-primary.active {
-    background-color: #074acc !important;
-    border-color: #074acc !important;
+    background-color: #808080 !important;
+    border-color: #808080 !important;
     color: #ffffff; }
   .theme-primary .btn-primary:disabled {
     background-color: #72a0fa;
@@ -550,8 +550,8 @@ Theme Primary Color
 
 /*---info Button---*/
 .theme-primary .btn-info {
-  background-color: #000000;
-  border-color: #000000;
+  background-color: #006690;
+  border-color: #0006690;
   color: #ffffff; }
   .theme-primary .btn-info:hover, .theme-primary .btn-info:active, .theme-primary .btn-info:focus, .theme-primary .btn-info.active {
     background-color: #000000 !important;
@@ -634,12 +634,12 @@ Theme Primary Color
 
 /*---Danger Button---*/
 .theme-primary .btn-danger {
-  background-color: #EF3737;
-  border-color: #EF3737;
+  background-color: #808080;
+  border-color: #808080;
   color: #ffffff; }
   .theme-primary .btn-danger:hover, .theme-primary .btn-danger:active, .theme-primary .btn-danger:focus, .theme-primary .btn-danger.active {
-    background-color: #e11212 !important;
-    border-color: #e11212 !important;
+    background-color: #808080 !important;
+    border-color: #808080 !important;
     color: #ffffff; }
   .theme-primary .btn-danger:disabled {
     background-color: #f79595;

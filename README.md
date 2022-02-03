@@ -1,23 +1,66 @@
-# school  management system
-
+# School  management system
+ 
+_Student Information Management System can be used by education institutes to
+maintain the records of students easily. Achieving this objective is difficult using a
+manual system as the information is scattered, can be redundant and collecting
+relevant information may be very time consuming. All these problems are solved
+using this project._
 
 # Contributers
-A big shout out to all the contributers, more specifically to these guys
+A big shout out to all the contributers.
 
 
 # Usertype
 
->There are 4 types of user accounts. They include:
+There are 4 types of user accounts. They include:
 
-``
-``**Administrators **(Super Admin & Admin)`
-`
-``Accountant``
-``Teacher``
-``Student``
+````
+(1)Administrators (Super Admin & Admin)
+(2)Accountant
+(3)Teacher
+(4)Student
+`````
+
+#### SUPER ADMIN :
+
+* Only Super Admin can delete any record
+* Create any user account
+
+**-- Administrators (Super Admin & Admin)**
+
+* Manage students class/sections
+* View marksheet of students
+* Create, Edit and manage all user accounts & profiles
+* Create, Edit and manage Exams & Grades
+* Create, Edit and manage Subjects
+* Manage noticeboard of school
+* Notices are visible in calendar in dashboard
+* Edit system settings
+* Manage Payments & fees
 
 
-Check Laravel 8 Requirements https://laravel.com/docs/8.x
+**-- ACCOUNTANT**
+
+* Manage Payments & fees
+* Print Payment Receipts
+
+**-- TEACHER**
+
+* Manage Own Class/Section
+* Manage Exam Records for own Subjects
+* Manage Timetable if Assigned as Class Teacher
+* Manage own profile
+* Upload Study Materials
+
+**-- STUDENT**
+
+* View teacher profile
+* View own class subjects
+* View own marks and class timetable
+* View Payments
+* View library and book status
+* View noticeboard and school events in calendar
+* Manage own profile
 
 # Installation
 

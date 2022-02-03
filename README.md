@@ -1,7 +1,23 @@
 # schoolmanagement
 Contributers
 A big shout out to all the contributers, more specifically to these guys
-@adarash 
+There are 4 types of user accounts. They include:
+
+Administrators (Super Admin & Admin)
+Accountant
+Teacher
+Student
+
+
+Check Laravel 8 Requirements https://laravel.com/docs/8.x
+
+Installation
+
+Install dependencies (composer install)
+Set Database Credentials & App Settings in dotenv file (.env)
+Migrate Database (php artisan migrate)
+Database seed (php artisan db:seed) 
+
 DASHBOARD
 <img width="960" alt="dashboard" src="https://user-images.githubusercontent.com/59436078/152376416-18c79677-0558-49e4-8095-c9af554fd64e.PNG">
 

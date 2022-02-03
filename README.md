@@ -86,7 +86,7 @@ There are 4 types of user accounts. They include:
 A big shout out to all the contributers.
 # Security Vulnerabilities
 
-If you discover a security vulnerability within **School management system**, please use pull request. All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within **School Management System**, please use pull request. All security vulnerabilities will be promptly addressed.
 
 **Please Note** that some sections of this project are in the work-in-progress stage and would be updated soon. These include:
 
